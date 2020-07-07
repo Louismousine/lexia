@@ -1,4 +1,3 @@
-# lexia
 <p align="center">
   <img width="200" height="200" src="https://github.com/Louismousine/lexia/blob/master/icons/logo.png">
 </p>
