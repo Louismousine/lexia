@@ -1,4 +1,5 @@
 # lexia
+![logo](https://github.com/Louismousine/lexia/blob/master/icons/logo.png)
 
 Dyslexia is a disorder that affects one's ability to read. An estimated 10% of people have this disability.
 
@@ -8,4 +9,4 @@ Aside from Arial, these fonts are rarely used in website designs. To address thi
 
 ## Install
 
-lexia is available for download [here](x).
+lexia is available for download [here (not available yet, currently pending Google reviews)](x).
