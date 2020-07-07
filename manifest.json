@@ -1,0 +1,32 @@
+{
+  "name": "Lexia",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This extension converts a page's font to one that is dyslexia-friendly.",
+  "homepage_url": "https://github.com/Louismousine/lexia",
+  "icons": {
+    "128": "icons/logo.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/logo.png",
+    "default_popup": "page_action.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [
+        "inject.css"
+      ]
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "inject.js",
+        "popup.js"
+      ]
+    }
+  ]
+}
