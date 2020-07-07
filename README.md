@@ -1,5 +1,7 @@
 # lexia
-![logo](https://github.com/Louismousine/lexia/blob/master/icons/logo.png)
+<p align="center">
+  <img width="200" height="200" src="https://github.com/Louismousine/lexia/blob/master/icons/logo.png">
+</p>
 
 Dyslexia is a disorder that affects one's ability to read. An estimated 10% of people have this disability.
 
