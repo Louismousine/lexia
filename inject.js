@@ -4,6 +4,7 @@ chrome.extension.sendMessage({}, function(response) {
 		clearInterval(readyStateCheckInterval);
 		chrome.storage.sync.get(['key'], function(result) {
 			let font=result.key;
+			if (font!=='none')
 			document.querySelectorAll("*").forEach( e => e.style.fontFamily=font ? font : "Arial");
 		});
 	}
